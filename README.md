@@ -44,8 +44,8 @@ Hence the example could be simplified by running:
 ./passgen <<< 10 <<< 2 | tail -n 1 | c
 ````
 
-You can even add an alias that runs this whole command for whenever I need to generate a new
-password for a random website.
+You can even add an alias that runs this whole command for whenever you need 
+to generate a new password for a random website.
 ```bash
 alias genpass='/path/to/passgen <<< 10 <<< 2 | tail -n 1 | c' 
 ```
