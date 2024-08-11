@@ -1,9 +1,9 @@
 
 out: main.o lib.o
-	gcc main.o lib.o -o main
+	gcc main.o lib.o -o passgen
 
 debug: main.o lib.o
-	gcc -g -o -O0 main main.o lib.o
+	gcc -g -o -O0 passgen main.o lib.o
 
 main.o: main.c
 	gcc -c main.c -o main.o
