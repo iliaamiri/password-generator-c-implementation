@@ -1,4 +1,4 @@
-# Password manager implementation in C
+# Password generator implementation in C
 The title is very self-explanatory, tbh.
 
 ## Build
